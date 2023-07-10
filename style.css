@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Feature section */
+
+.first-image{
+    height: 170px;
+    width: 120px;
+    background-color: purple;
+    border-top-right-radius: 90px;
+    border-top-left-radius: 90px;
+}
