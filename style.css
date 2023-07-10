@@ -1,11 +1,61 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
+/* Nav section */
+
+.nav-container {
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.primary-color {
+    color: #272727;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.nav-title {
+    color: #272727;
+    font-size: 60px;
+    font-weight: 500px;
+    padding: 30px 150px 5px 100px;
+}
+
+.nav-description {
+    color: rgba(39, 39, 39, 0.60);
+    padding: 30px 150px 20px 100px;
+    padding-bottom: 30px;
+}
+
+.nav-btn {
+    padding: 15px 25px;
+    border-radius: 8px;
+}
+
+.btn-primary {
+    background-color: #E55473;
+    color: white;
+}
+
+.profile-picture {
+    width: 600px;
+    height: 650px;
+}
+
 /* Feature section */
 
-.first-image{
+.feature-heading {}
+
+.feature-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+}
+
+.first-image {
     height: 170px;
     width: 120px;
     background-color: purple;
