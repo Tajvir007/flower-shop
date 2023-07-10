@@ -182,9 +182,41 @@
     gap: 30px;
 }
 
-.insta-image{
+.insta-image {
     width: 200px;
     height: 200px;
-    padding-bottom:70px;
+    padding-bottom: 70px;
 }
+
 /* Latest Deal section */
+.latest-deal-content {
+    background-image: url("/Flower/Rectangle\ 9.png");
+    background-size: cover;
+    margin: 0 auto;
+    width: 900px;
+    height: 250px;
+    margin-bottom: 30px ;
+}
+
+.latest-deal-information {
+    text-align: center;padding-top: 100px;
+}
+.latest-deal-title{
+    color: #272727;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 15px;
+}
+.latest-deal-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 20px;
+}
+.latest-deal-btn{
+    border-radius: 5px;
+    padding: 15px 15px;
+    
+}
+.latest-deal-content input{
+    padding: 18px 100px;
+    border-radius: 8px;
+}
