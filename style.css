@@ -48,17 +48,64 @@
 
 /* Feature section */
 
-.feature-heading {}
+.feature-heading {
+    padding: 200px 20px 20px 20px;
+}
 
 .feature-description {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
+    padding-top: 10px;
+}
+
+.feature-image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 25px;
 }
 
 .first-image {
-    height: 170px;
-    width: 120px;
-    background-color: purple;
-    border-top-right-radius: 90px;
-    border-top-left-radius: 90px;
+    height: 250px;
+    width: 250px;
+    border-radius: 1000px 1000px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
 }
+
+#first-background-image {
+
+    background-image: url("./Flower/pngwing\ 6.png");
+    background-repeat: no-repeat;
+    background-size: 140px 180px;
+    background-position: bottom;
+}
+
+.second-image {
+    height: 250px;
+    width: 250px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+#second-background-image {
+    background-image: url("./Flower/pngwing\ 5.png");
+    background-repeat: no-repeat;
+    background-size: 160px 190px;
+    background-position: bottom;
+}
+
+.third-image {
+    height: 250px;
+    width: 250px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+#third-background-image {
+    background-image: url("./Flower/pngwing\ 7.png");
+    background-repeat: no-repeat;
+    background-size: 160px 190px;
+    background-position: bottom;
+}
+ /* Dealing section */
+ .deal-container{
+    
+ }
