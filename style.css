@@ -34,12 +34,18 @@
 .nav-btn {
     padding: 15px 25px;
     border-radius: 8px;
+    text-decoration: none;
+    color: white;
 }
 
 .btn-primary {
     background-color: #E55473;
     color: white;
     justify-content: center;
+}
+.nav-content a{
+    text-decoration: none;
+    color: white;
 }
 
 .profile-picture {
@@ -255,4 +261,26 @@ footer{
     font-family: 'Lato', sans-serif;
     font-size: 10px;
     padding-bottom: 50px;
+}
+/* Form section */
+.form-container{
+    background: rgba(229, 84, 115, 0.10);
+}
+form{
+     padding: 300px;
+    text-align: center;
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    
+}
+form input{
+    padding: 10px;
+    border-radius: 8px;
+    width: 200px;
+}
+form button{
+    padding: 10px 20px;
+    background-color: #E55473;
+    color: white;
+    border-radius: 8px;
 }
