@@ -36,6 +36,7 @@
     border-radius: 8px;
     text-decoration: none;
     color: white;
+    cursor: pointer;
 }
 
 .btn-primary {
@@ -46,6 +47,8 @@
 .nav-content a{
     text-decoration: none;
     color: white;
+    target:"blank";
+    
 }
 
 .profile-picture {
