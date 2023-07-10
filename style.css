@@ -48,7 +48,7 @@
 }
 
 /* Feature section */
-.feature-container{
+.feature-container {
     padding-bottom: 100px;
 }
 
@@ -130,6 +130,7 @@
 .deal-title-modify {
     color: #E55473;
 }
+
 .deal-content button {
     margin-left: 50%;
 }
@@ -147,10 +148,43 @@
     width: 200px;
     padding: 50px 300px 30px 30px;
 }
-.deal-btn{
+
+.deal-btn {
     padding: 15px 50px;
     border-radius: 10px;
     text-align: center;
 }
 
 /* Insta section */
+.instagram-content {
+    text-align: center;
+
+}
+
+.insta-title {
+    font-family: 'Lato', sans-serif;
+    color: #272727;
+    font-size: 30px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.insta-description {
+    font-family: 'Lato', sans-serif;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    margin-bottom: 80px;
+}
+
+.instagram-image {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.insta-image{
+    width: 200px;
+    height: 200px;
+    padding-bottom:70px;
+}
+/* Latest Deal section */
