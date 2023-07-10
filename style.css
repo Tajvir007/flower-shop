@@ -220,3 +220,34 @@
     padding: 18px 100px;
     border-radius: 8px;
 }
+
+/* Footer section */
+footer{
+    background-color: #111010;
+    text-align: center;
+    padding: 100px;
+}
+.footer-title{
+    padding-top: 20px;
+}
+.footer-title-first-part{
+    color: #E55473;
+    font-family: 'Lato', sans-serif;
+}
+.footer-title-second-part{
+   color: #FFFFFF;
+   font-family: 'Lato', sans-serif;
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.copy-right{
+    color: rgba(255, 255, 255, 0.40);
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+    padding-bottom: 50px;
+}
